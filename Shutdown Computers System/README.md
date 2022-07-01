@@ -1,7 +1,7 @@
 # Shutdown Computers System
 
 <h1>Why I developed this system</h1>
-The company I work for was asking for a project to save electricity costs. I came up with the idea of forcing them to shutdown everyday at 20:00 (Israel Day Time). <br>
+The company I work for was asking for a project to save electricity costs. I came up with the idea of forcing them to shutdown computers everyday at 20:00 (Israel Day Time). <br>
 I created a "Powershell" Win-Forms script that prompt a pop-up that counts down 900 seconds. When the count reach 0, the computer is forced to shut down. <br>
 In this process, a file is created in "C:\Shutdown\Shutdown.txt" with the Date and time in order to compare at startup how long was the computer off and how much electricity been saved. <br>
 With API Post, i send data as JSON format to the EMP and the the server-side (Written in C#) process it into the SQL as shown in the demo's below. <br>
