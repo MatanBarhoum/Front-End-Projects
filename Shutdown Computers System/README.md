@@ -12,6 +12,7 @@ Also, the Report App connect to the SQL and can show you in datagridview, with c
 This project is not completed and will be further developed and upgraded as my company needed. These upgrades will be updated here as well. <br>
 WebApplication is 1GB size, and has many files. Send me an email to "MatanBarhoum@outlook.com" for the Full Web Applicatino and you will get it. <br>
 
+I choosed to work with PS1 (powershell scripts) at the client side because I wanted to maintain the client side editable by others at my company who does not know c# and can't maintain this.
 <h1>How does it work?</h1>
 <h2>Here some demos:</h2>
 
