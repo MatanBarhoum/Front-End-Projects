@@ -1,0 +1,74 @@
+<html dir="rtl">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+    <div id="logo">
+      מחשבון אירועים
+    </div>
+    <section id="wedding-calc">
+      <div id="block">
+        <div id="space"></div>
+        <div id="inline-select">
+          <label for="event">בחר אירוע:</label>
+
+<select name="event" id="event">
+  <option value="wedding">חתונה</option>
+  <option value="bret">ברית</option>
+  <option value="barMitzvah">בר / בת מצווה</option>
+  <option value="Birthday">יום הולדת</option>
+</select>
+        </div>
+                <div id="inline-select">
+          <label for="people">בחר כמות אנשים:</label>
+
+<select name="people" id="people">
+  <option value="one">1</option>
+  <option value="two">2</option>
+  <option value="three">3</option>
+  <option value="four">4</option>
+</select>
+        </div>
+                <div id="inline-select">
+          <label for="status">אתם ה...:</label>
+
+<select name="status" id="status">
+  <option value="closeFriends">חברים קרובים</option>
+  <option value="workFriends">חברים לעבודה</option>
+  <option value="family">משפחה</option>
+  <option value="family2nd">משפחה רחוקה</option>
+</select>
+        </div>
+                <div id="inline-select">
+          <label for="where">איפה האירוע:</label>
+
+<select name="where" id="where">
+  <option value="regular">אולם אירועים</option>
+  <option value="garden">גן אירועים</option>
+  <option value="openHouse">בית פתוח</option>
+  <option value="beach">חוף הים</option>
+</select>
+        </div>
+      
+        <div id="button">
+          <button id="submit" onclick="howMuch()">כמה לשים?</button>
+        </div>
+        
+      <div id="totalCost">
+       <input type="text" id="test" value="123"></input>
+          <h1>רק בשמחות!</h1> 
+      </div>
+      </div>
+    </section>
+  
+  <div id="label">
+    <h1>נוצר ע"י מתן ברהום</h1>
+  </div>
+  </body>
+</html>
