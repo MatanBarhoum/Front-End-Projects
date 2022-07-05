@@ -121,3 +121,10 @@ input[type="text"] {
   justify-content: center;
   align-items: center;
 }
+
+/* Phone Responsive */
+@media (max-width: 600px) {
+  #block {
+    width: 400px;
+  }
+}
