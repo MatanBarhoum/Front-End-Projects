@@ -2,4 +2,4 @@
 
 <img src="navbar_slideshowDemo.gif">
 
-</img src=SliderDemo.gif">
+<img src=SliderDemo.gif">
