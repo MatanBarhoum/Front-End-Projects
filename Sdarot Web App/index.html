@@ -1,0 +1,210 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300&family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Demo Web</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            Matan Sdarot
+        </div>
+        <div class="nav-items">
+            <ul>
+                <li>Top 250 <i class="nav-items-icon fa-brands fa-hotjar"></i></li>
+                <li id="dropdown">Categories <i class="nav-items-icon fa-solid fa-caret-down"></i>
+                    <div class="dropdown-content">
+                        <a href="#">Comedy</a>
+                        <a href="#">Comedy</a>
+                        <a href="#">Comedy</a>
+                      </div>
+                </li>
+                <li>Trends <i class="nav-items-icon fa-solid fa-arrow-trend-up"></i></li>
+                <li>Contact us <i class="nav-items-icon fa-solid fa-phone-flip"></i></li>
+            </ul>
+        </div>
+
+        <div id="dropdown-profile" class="nav-login">
+            <i class="nav-login-profile-picture fa-solid fa-user"></i>
+            <span class="nav-login-profile">Rohan Bill</span>
+            <i class="fa-solid fa-caret-down"></i>
+            <div class="dropdown-profile-content">
+                <a href="#">Profile</a>
+                <a href="#">Liked <i class="heart-icon fa-solid fa-heart"> ( 3 ) </i></a>
+                <a href="#">Log Out</a>
+              </div>
+
+        </div>
+    </div>
+
+    <div class="welcome-section-container" style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515)">
+        <div class="welcome-section-content">
+            <div class="welcome-section-slideshow" data-component="slideshow">
+                
+                <div class="slideHide">
+                <button class="watch-now-button">Watch Now</button>
+                <button class="trailer-button">Trailer</button>
+                <img class="slideshow-img" src="https://www.whats-on-netflix.com/wp-content/uploads/2019/05/when-they-see-us-limited-series-netflix.jpg" alt="">
+                <div class="welcome-section-slideshow-title">When They See Us</div>
+                <div class="welcome-section-slideshow-desc">The four-episode series seeks to retell the story of
+                     the Central Park Five who were wrongly convicted of crimes relating to the death of a woman. 
+                    It seeks to document the 25-years that followed the incident that led to their eventual
+                     exoneration.</div>
+                </div>
+                
+                <div class="slideHide">
+                    <button class="watch-now-button">Watch Now</button>
+                    <button class="trailer-button">Trailer</button>
+    
+                     <img class="slideshow-img" src="https://www.whats-on-netflix.com/wp-content/uploads/2020/12/the-queens-gambit-netflix.jpg" alt="">
+                     <div class="welcome-section-slideshow-title">When They See Us</div>
+                     <div class="welcome-section-slideshow-desc">The four-episode series seeks to retell the story of
+                          the Central Park Five who were wrongly convicted of crimes relating to the death of a woman. 
+                         It seeks to document the 25-years that followed the incident that led to their eventual
+                          exoneration.</div>
+                </div>
+
+                <div class="slideHide">
+                    <button class="watch-now-button">Watch Now</button>
+                    <button class="trailer-button">Trailer</button>    
+                    <img class="slideshow-img" src="https://www.whats-on-netflix.com/wp-content/uploads/2021/02/unbelievable-netflix-limited-series.jpg" alt="">
+                    <div class="welcome-section-slideshow-title">When They See Us</div>
+                    <div class="welcome-section-slideshow-desc">The four-episode series seeks to retell the story of
+                         the Central Park Five who were wrongly convicted of crimes relating to the death of a woman. 
+                        It seeks to document the 25-years that followed the incident that led to their eventual
+                         exoneration.</div>
+               </div>
+
+               <div class="slideHide">
+                <button class="watch-now-button">Watch Now</button>
+                <button class="trailer-button">Trailer</button>
+                <img class="slideshow-img" src="https://www.whats-on-netflix.com/wp-content/uploads/2021/02/midnight-mass-netflix-miniseries.jpg" alt="">
+                <div class="welcome-section-slideshow-title">When They See Us</div>
+                <div class="welcome-section-slideshow-desc">The four-episode series seeks to retell the story of
+                     the Central Park Five who were wrongly convicted of crimes relating to the death of a woman. 
+                    It seeks to document the 25-years that followed the incident that led to their eventual
+                     exoneration.</div>
+           </div>
+
+           <div class="slideHide">
+            <button class="watch-now-button">Watch Now</button>
+            <button class="trailer-button">Trailer</button>
+            <img class="slideshow-img" src="https://www.whats-on-netflix.com/wp-content/uploads/2021/02/maid-netflix-limited-series.jpg" alt="">
+            <div class="welcome-section-slideshow-title">When They See Us</div>
+            <div class="welcome-section-slideshow-desc">The four-episode series seeks to retell the story of
+                 the Central Park Five who were wrongly convicted of crimes relating to the death of a woman. 
+                It seeks to document the 25-years that followed the incident that led to their eventual
+                 exoneration.</div>
+       </div>
+
+
+                <i class="arrowRight fa-solid fa-angle-right" onclick="plusSlides(1)"></i>
+                <i class="arrowLeft fa-solid fa-angle-left" onclick="plusSlides(-1)"></i>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="series-grid-container">
+        
+        <div class="series-grid-title">
+            <h1>NEW RELEASES</h1>
+        </div>
+        <div class="series-grid-wrapper">
+            <div class="series-grid-arrow">
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+        <div class="movie-list">
+            <div class="series-grid-item">
+                <div class="series-grid-box-title">Moon Knight</div>
+                <div class="series-grid-box-release">Release Year: 2022</div>
+                <img class="series-grid-box-img" src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/halfstack_busshelter_48x70_moonknight_v7_lg_0.jpg" alt="">
+            </div>
+            <div class="series-grid-item">
+                <div class="series-grid-box-title">123</div>
+                <div class="series-grid-box-release">Release Year: 123123</div>
+                <img class="series-grid-box-img" src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/halfstack_busshelter_48x70_moonknight_v7_lg_0.jpg" alt="">
+            </div>
+            <div class="series-grid-item">
+                <div class="series-grid-box-title">Moon Knight</div>
+                <div class="series-grid-box-release">Release Year: 2022</div>
+                <img class="series-grid-box-img" src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/halfstack_busshelter_48x70_moonknight_v7_lg_0.jpg" alt="">
+            </div>
+            <div class="series-grid-item">
+                <div class="series-grid-box-title">Moon Knight</div>
+                <div class="series-grid-box-release">Release Year: 2022</div>
+                <img class="series-grid-box-img" src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/halfstack_busshelter_48x70_moonknight_v7_lg_0.jpg" alt="">
+            </div>
+            <div class="series-grid-item">
+                <div class="series-grid-box-title">Moon Knight</div>
+                <div class="series-grid-box-release">Release Year: 2022</div>
+                <img class="series-grid-box-img" src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/halfstack_busshelter_48x70_moonknight_v7_lg_0.jpg" alt="">
+            </div>
+            <div class="series-grid-item">
+                <div class="series-grid-box-title">Moon Knight</div>
+                <div class="series-grid-box-release">Release Year: 2022</div>
+                <img class="series-grid-box-img" src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/halfstack_busshelter_48x70_moonknight_v7_lg_0.jpg" alt="">
+            </div>
+            <div class="series-grid-item">
+                <div class="series-grid-box-title">Moon Knight</div>
+                <div class="series-grid-box-release">Release Year: 2022</div>
+                <img class="series-grid-box-img" src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/halfstack_busshelter_48x70_moonknight_v7_lg_0.jpg" alt="">
+            </div>
+            <div class="series-grid-item">
+                <div class="series-grid-box-title">Moon Knight</div>
+                <div class="series-grid-box-release">Release Year: 2022</div>
+                <img class="series-grid-box-img" src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/halfstack_busshelter_48x70_moonknight_v7_lg_0.jpg" alt="">
+            </div>
+            <div class="series-grid-item">
+                <div class="series-grid-box-title">Moon Knight</div>
+                <div class="series-grid-box-release">Release Year: 2022</div>
+                <img class="series-grid-box-img" src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/halfstack_busshelter_48x70_moonknight_v7_lg_0.jpg" alt="">
+            </div>
+            <div class="series-grid-item">
+                <div class="series-grid-box-title">Moon Knight</div>
+                <div class="series-grid-box-release">Release Year: 2022</div>
+                <img class="series-grid-box-img" src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/halfstack_busshelter_48x70_moonknight_v7_lg_0.jpg" alt="">
+            </div>
+            <div class="series-grid-item">
+                <div class="series-grid-box-title">Moon Knight</div>
+                <div class="series-grid-box-release">Release Year: 2022</div>
+                <img class="series-grid-box-img" src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/halfstack_busshelter_48x70_moonknight_v7_lg_0.jpg" alt="">
+            </div>
+            <div class="series-grid-item">
+                <div class="series-grid-box-title">Moon Knight</div>
+                <div class="series-grid-box-release">Release Year: 2022</div>
+                <img class="series-grid-box-img" src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/halfstack_busshelter_48x70_moonknight_v7_lg_0.jpg" alt="">
+            </div>
+            <div class="series-grid-item">
+                <div class="series-grid-box-title">Moon Knight</div>
+                <div class="series-grid-box-release">Release Year: 2022</div>
+                <img class="series-grid-box-img" src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/halfstack_busshelter_48x70_moonknight_v7_lg_0.jpg" alt="">
+            </div>
+            <div class="series-grid-item">
+                <div class="series-grid-box-title">Moon Knight</div>
+                <div class="series-grid-box-release">Release Year: 2022</div>
+                <img class="series-grid-box-img" src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/halfstack_busshelter_48x70_moonknight_v7_lg_0.jpg" alt="">
+            </div>
+            <div class="series-grid-item">
+                <div class="series-grid-box-title">Moon Knight</div>
+                <div class="series-grid-box-release">Release Year: 2022</div>
+                <img class="series-grid-box-img" src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/halfstack_busshelter_48x70_moonknight_v7_lg_0.jpg" alt="">
+            </div>
+            <div class="series-grid-item">
+                <div class="series-grid-box-title">Moon Knight</div>
+                <div class="series-grid-box-release">Release Year: 2022</div>
+                <img class="series-grid-box-img" src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/halfstack_busshelter_48x70_moonknight_v7_lg_0.jpg" alt="">
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="newdiv"></div>
+    <script src="app.js"></script>
+
+</body>
+</html>
