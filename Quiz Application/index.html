@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application by Matan Barhoum</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="lblHighScore">View Highscores <i class="fas fa-hand-point-left fa-lg"></i></div>
+            <div id="lbl-timer" class="lblTimer">Time: </div>
+        </div>
+    </header>
+
+    <div class="quiz-box-container">
+        <div class="quiz-box">
+            <div id="quiz-box-title" class="quiz-box-title">Quiz Application</div>
+            <div id="quiz-box-desc" class="quiz-box-desc">This is a Quiz Application built by me, Matan Barhou. I am 24 from Jerusalem, Israel and I am learning Responsive Web Design and JavaScript. By bulding this quiz app I understood alot about Javascript and how to manipulate objects.
+                <br>Give it a try !
+            </div>
+            <div id="start-btn" class="quiz-box-btn">
+                <button onclick="StartQuiz()" class="quiz-box-btn-start">Start Now</button>
+            </div>
+            <!-- Starting the Quiz Section -->
+            <span id="score-value-id" class="score-value">Score: </span>
+            <div id="Questiontitle-section" class="quiz-questionTitle-section">
+                <h1 id="Questiontitle" class="quiz-questionTitle">Question</h1>
+            </div>
+            <div id="quiz-btn-question" class="quiz-button-question-section">
+                    <button id="A1" onclick="checkAnswer(0)" class="button-container">A1</i></button>
+                    <button id="A2" onclick="checkAnswer(1)" class="button-container">A2</button>
+                    <button id="A3" onclick="checkAnswer(2)" class="button-container">A3</button>
+                    <button id="A4" onclick="checkAnswer(3)" class="button-container">A4</button>
+            </div>
+                <button id="quiz-button-next" onclick="GetQuestion()" class="quiz-button-next">Continue</button>
+
+                <div id="game-over" class="game-over-title">Game Over!</div>
+                <button id="game-restart" onclick="StartQuiz()" class="restart-game">Restart Game</button>
+        
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
