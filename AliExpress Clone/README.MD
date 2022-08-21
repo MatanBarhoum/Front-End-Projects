@@ -7,6 +7,7 @@ of that certain DIV to an array and then using calculation of number of Characte
 Then, using splice, I remove all the characters after index 22 - splice(23, charactersToDelete) and then using the third parameter <Br>
 to fill the Array with 3 dots (...) - splice(23, charactersToDelete, '.','.','.') - and now the new array have 23 characters + 3 dots. <br>
 Using join('') I concate the array into a new String that have 23 characters of that title + 3 dots. <br> 
+<b>An example can be found at the end of the Gif Demo below, when the section of "More To Love" shows, focus on the title.</b>
 
 <h2>Demo of the site</h2>
 <img src="Demo.gif">
