@@ -1,4 +1,4 @@
-#AliExpress Clone Using HTML, CSS and JavaScript
+# AliExpress Clone Using HTML, CSS and JavaScript
 
 *JavaScript is being used to determine if product title has more than 23 characters. <br>
 using querySelectorAll and forEach loop with an arrow function I iterate through all the products title DIVs and check <br>
