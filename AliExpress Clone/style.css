@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.container {
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container img {
+    width: 166px;
+    height: 40px;
+}
+
+.container input[type="text"] {
+    font-size: 24px;
+    margin-left: 50px;
+    width: 450px;
+}
+
+.btn-search {
+    width: 35px;
+    height: 35px;
+    margin-left: 5px;
+    background-color: #0b0b0b;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn-search-icon {
+    color: white;
+    font-size: 24px;
+}
+
+.cart-icon {
+    font-size: 32px;
+    margin-left: 70px;
+}
+
+/* 2nd Section */
+
+.second-section {
+    width: 100%;
+}
+
+.second-section-container {
+    height: 62vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+}
+
+.category-box {
+    width: 300px;
+    height: 550px;
+    padding-top: 50px;
+}
+
+.category-item {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: calc(100% / 15);
+    width: 300px;
+    padding-left: 5px;
+    font-size: 18px;
+    transition: all 1s ease;
+}
+
+.category-item-title {
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.category-item:hover {
+    margin: 5px 5px;
+    cursor: pointer;
+}
+
+.category-item:first-of-type, .category-item:last-of-type {
+    border-radius: 5px 0px 0px 0px;
+}
+
+.labels-box-container {
+    width: 690px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.labels-box {
+    display: flex;
+}
+
+.labels-box span {
+    font-size: 24px;
+    padding-bottom: 5px;
+    margin-right: 25px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.labels-box-ad {
+    width: 690px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    background-image: url("https://www.wordstream.com/wp-content/uploads/2021/07/persuasive-ads-coca-cola.jpg");
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.arrows {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 100px;
+    padding: 0 10px;
+    color: rgba(255,255,255, 0.8);
+}
+
+.icon:hover {
+    transition: all 1s ease;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.top-ranking {
+    width: 690px;
+    height: 190px;
+    display: flex;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.top-ranking-item {
+    width: calc(100% / 5);
+    position: relative;
+}
+
+.has-img {
+    background-image: url("https://ae01.alicdn.com/kf/H4690c2f875a94742b5516d04596c21b3a.png");
+    background-size: cover;
+    border-radius: 50px;
+}
+
+.top-ranking-item h2 {
+    padding-top: 35px;
+    padding-left: 15px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.top-ranking-item span {
+    font-size: 12px;
+    padding: 15px;
+}
+
+.top-ranking-item h3 {
+    padding-left: 15px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ff831c;
+    cursor: pointer;
+}
+
+.top-ranking-item-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.top-ranking-item-img img {
+    height: 60%;
+    width: 80%;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.item-title {
+    position: absolute;
+    bottom: 20%;
+    max-width: 100%;
+}
+
+.main-container-home {
+    background-color: #FFFFF0;
+    padding-top: 50px;
+}
+.mega-brands-container {
+    background-color: #1A1C1F;
+    width: 1200px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.mega-brands-container-title {
+    color: PaleTurquoise;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.mega-brands-container-desc {
+    color: PaleTurquoise;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.mega-brands-items-box {
+    width: 95%;
+    height: 200px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.mega-brands-items-box-item {
+    width: calc(100% / 8);
+    height: 80%;
+    background-color: white;
+    margin: 0px 2px;
+    position: relative
+}
+
+.mega-brands-items-box-item img {
+    width: 100%;
+}
+
+.mega-brands-items-box-percentoff {
+    width: 60px;
+    height: 20px;
+    background-color: #ff472e;
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+}
+
+.mega-brands-items-box-category {
+    display: flex;
+    justify-content: center;
+}
+
+
+.category-main-container {
+    width: 1100px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.category-main-title {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.category-main-line {
+    border-top: 1px solid darkgray;
+    width: 150px;
+    margin: 0 5px;
+}
+
+.category-main-sidebar{
+    width: 200px;
+    height: 250px;
+    margin-left: 50px;;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.category-main-sidebar img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.category-main-mainbar{
+    width: 800px;
+    height: 250px;
+    margin-top: 5px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.category-main-mainbar-container {
+    width: 100%;
+    height: 50%;
+    margin: 2px 0px;
+    display: flex;
+}
+
+.category-main-mainbar-item{
+    width: calc(100% / 3);
+    height: 100%;
+    margin: 0 2px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.category-main-mainbar-item-title {
+    padding: 5px 5px;
+    width: 100%;
+}
+
+.category-main-mainbar-item-photo{
+    width: calc(100% / 3.5);
+    height: 75px;
+    padding: 5px 2px;
+    cursor: pointer;
+}
+
+.category-main-mainbar-item-photo img {
+    width: 100%;
+    height: 100%;
+}
+
+.category-main-title-name {
+    font-size: 22px;
+}
+
+.main-items-container {
+    width: 1100px;
+    height: auto;
+    margin: 0px auto;
+}
+
+.main-items-item-container{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.main-items-item{
+    width: calc(100% / 6);
+    height: 100%;
+    background-color: white;
+    margin: 0 2px;;
+}
+
+.main-items-item:hover{
+    box-shadow: 0 0 3px black;
+}
+
+.main-items-item-photo {
+    width: 100%;
+    height: 70%;
+}
+
+.main-items-item-photo img {
+    width: 100%;
+    height: 100%;
+}
+
+.main-items-item-title{
+    font-size: 12px;
+    width: 100%;
+    height: 15px;
+    overflow: hidden;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+.main-items-item-sales {
+    font-size: 12px;
+    color: #666;
+    margin-top: 6px;
+    padding-left: 5px;
+}
